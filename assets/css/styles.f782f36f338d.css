@@ -319,8 +319,6 @@ img { height:auto; }
 .form-direct { color:var(--text-2); font-size:12px; margin:10px 0 12px; text-align:center; }
 .form-direct a:hover { color:var(--text-0); }
 .video-inner { position:relative; }
-.hero-poster { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; pointer-events:none; }
-.hero-poster[hidden] { display:none; }
 .video-fallback { position:absolute; inset:0; z-index:5; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; padding:18px; background:#05070a; text-align:center; }
 .video-fallback[hidden] { display:none; }
 .video-fallback p { margin:0; font-size:15px; }

@@ -80,8 +80,6 @@
       if (host.querySelector('video, iframe')) {
         window.clearTimeout(watchdog);
         fallback.hidden = true;
-        const poster = document.getElementById('heroPoster');
-        if (poster) poster.hidden = true;
         ready.disconnect();
       }
     });
